@@ -1,2 +1,2 @@
 # algorithm
-algorithm
+Algorithm Problems' Solutions
