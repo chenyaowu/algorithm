@@ -7,17 +7,16 @@ class Solution {
         int j=0, k=0;
         double result = 0;
         for (int i = 0; i < index.length; i++) {
-        	if(j == length1){
-        		index[i] = nums2[k++];
-        	}else if(k == length2){
-        		index[i] = nums1[j++];
-        	}else if(nums1[j] >= nums2[k]){
-        		index[i] = nums2[k++];
-        	}else{
-        		index[i] = nums1[j++];
-        	}
-        	System.out.println(index[i]);
+		if(j == length1){
+			index[i] = nums2[k++];
+		}else if(k == length2){
+			index[i] = nums1[j++];
+		}else if(nums1[j] >= nums2[k]){
+			index[i] = nums2[k++];
+		}else{
+			index[i] = nums1[j++];
 		}
+	}
         
         
         if(total%2 ==0){
