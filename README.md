@@ -4,6 +4,7 @@ Algorithm Problems' Solutions
 
 | #    | 题名                                                         | 答案                                                         | 难度 |
 | ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---- |
+| 9    | [回文数 (atoi)](https://leetcode-cn.com/problems/palindrome-number/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Palindrome_Number.java) | 简单 |
 | 8    | [字符串转换整数 (atoi)](https://leetcode-cn.com/problems/string-to-integer-atoi/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/String_to_Integer_(atoi).java) | 中等 |
 | 7    | [整数反转](https://leetcode-cn.com/problems/reverse-integer/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/reverse_Integer.java) | 简单 |
 | 6    | [Z 字形变换](https://leetcode-cn.com/problems/zigzag-conversion/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/ZigZag_Conversion.java) | 中等 |
