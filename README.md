@@ -4,6 +4,7 @@ Algorithm Problems' Solutions
 
 | #    | 题名                                                         | 答案                                                         | 难度 |
 | ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---- |
+| 14    | [最长公共前缀](https://leetcode-cn.com/problems/longest-common-prefix/submissions/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Longest_Common_Prefix.java) | 简单 |
 | 13    | [罗马数字转整数](https://leetcode-cn.com/problems/roman-to-integer/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Roman_to_Integer.java) | 简单 |
 | 12    | [整数转罗马数字](https://leetcode-cn.com/problems/roman-to-integer/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Integer_to_Roman.java) | 中等 |
 | 11    | [盛最多水的容器](https://leetcode-cn.com/problems/container-with-most-water/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Container_With_Most_Water.java) | 中等 |
