@@ -7,7 +7,7 @@ class Solution {
 			int left = i + 1;
 			int right = nums.length - 1;
 
-			while (left < right && left < right) {
+			while (left < right) {
 				int sum = nums[i] + nums[left] + nums[right];
 				if (Math.abs(sum - target) < d) {
 					d = Math.abs(sum - target);
