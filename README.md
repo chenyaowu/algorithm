@@ -4,6 +4,7 @@ Algorithm Problems' Solutions
 
 | #    | 题名                                                         | 答案                                                         | 难度 |
 | ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---- |
+| 26    | [删除排序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/submissions/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Remove_Duplicates_from_Sorted_Array.java) | 中等|
 | 22    | [括号生成](https://leetcode-cn.com/problems/generate-parentheses/submissions/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Generate_Parentheses.java) | 中等|
 | 21    | [合并两个有序链表](https://leetcode-cn.com/problems/merge-two-sorted-lists/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Merge_Two_Sorted_Lists.java) | 简单|
 | 20    | [有效的括号](https://leetcode-cn.com/problems/valid-parentheses/comments/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Valid_Parentheses.java) | 简单 |
