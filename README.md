@@ -4,7 +4,7 @@ Algorithm Problems' Solutions
 
 | #    | 题名                                                         | 答案                                                         | 难度 |
 | ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---- |
-| 28    | [移除元素](https://leetcode-cn.com/problems/implement-strstr/submissions/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Implement_strStr().java) | 简单|
+| 28    | [实现strStr()](https://leetcode-cn.com/problems/implement-strstr/submissions/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Implement_strStr().java) | 简单|
 | 27    | [移除元素](https://leetcode-cn.com/problems/remove-element/submissions/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Remove_Element.java) | 简单|
 | 26    | [删除排序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/submissions/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Remove_Duplicates_from_Sorted_Array.java) | 中等|
 | 24    | [两两交换链表中的节点](https://leetcode-cn.com/problems/swap-nodes-in-pairs/submissions/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Swap_Nodes_in_Pairs.java) | 中等|
