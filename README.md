@@ -5,6 +5,7 @@ Algorithm Problems' Solutions
 | #    | 题名                                                         | 答案                                                         | 难度 |
 | ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---- |
 | 31    | [下一个排列](https://leetcode-cn.com/problems/next-permutation/solution/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Next_Permutation.java) | 中等|
+| 29    | [两数相除](https://leetcode-cn.com/problems/divide-two-integers/submissions/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Divide_Two_Integers.java) | 中等|
 | 28    | [实现strStr()](https://leetcode-cn.com/problems/implement-strstr/submissions/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Implement_strStr().java) | 简单|
 | 27    | [移除元素](https://leetcode-cn.com/problems/remove-element/submissions/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Remove_Element.java) | 简单|
 | 26    | [删除排序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/submissions/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Remove_Duplicates_from_Sorted_Array.java) | 中等|
