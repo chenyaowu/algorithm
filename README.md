@@ -4,6 +4,7 @@ Algorithm Problems' Solutions
 
 | #    | 题名                                                         | 答案                                                         | 难度 |
 | ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---- |
+| 33    | [搜索旋转排序数组](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/submissions/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Search_in_Rotated_Sorted_Array.java) | 中等|
 | 32    | [最长有效括号](https://leetcode-cn.com/problems/longest-valid-parentheses/submissions/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Longest_Valid_Parentheses.java) | 中等|
 | 31    | [下一个排列](https://leetcode-cn.com/problems/next-permutation/solution/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Next_Permutation.java) | 中等|
 | 29    | [两数相除](https://leetcode-cn.com/problems/divide-two-integers/submissions/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Divide_Two_Integers.java) | 中等|
