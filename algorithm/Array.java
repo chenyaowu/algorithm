@@ -86,6 +86,14 @@ public class Array<E> {
         return -1;
     }
 
+    public E getLast(){
+        return get(size -1);
+    }
+
+    public E getFirst(){
+        return get(0);
+    }
+
     // 删除数组中指定位置的元素，返回删除的元素
     public E remove(int index) {
         if (index < 0 || index >= size) {
