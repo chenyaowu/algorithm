@@ -35,7 +35,7 @@ public class ArrayQueue<E> implements Queue<E> {
         return array.isEmpty();
     }
 
-    public int getCapacity(){
+    public int getCapacity() {
         return array.getCapacity();
     }
 
@@ -46,7 +46,7 @@ public class ArrayQueue<E> implements Queue<E> {
         res.append("front [");
         for (int i = 0; i < array.getSize(); i++) {
             res.append(array.get(i));
-            if(i != array.getSize() - 1){
+            if (i != array.getSize() - 1) {
                 res.append(", ");
             }
         }

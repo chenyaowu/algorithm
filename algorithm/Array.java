@@ -86,11 +86,11 @@ public class Array<E> {
         return -1;
     }
 
-    public E getLast(){
-        return get(size -1);
+    public E getLast() {
+        return get(size - 1);
     }
 
-    public E getFirst(){
+    public E getFirst() {
         return get(0);
     }
 
