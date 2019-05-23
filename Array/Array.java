@@ -33,11 +33,11 @@ public class Array<E> {
     }
 
     public void add(int index, E e) {
-        if (size == data.length) {
-            throw new IllegalArgumentException("Add failed. Array is full.");
-        }
+
         if (index < 0 || index > size) {
             throw new IllegalArgumentException("Add failed. Require index >=0 and index <= size");
+        } if (size == data.length) {
+            resize(2 * data.length);
         }
 
         for (int i = size - 1; i >= index; i--) {
@@ -49,7 +49,9 @@ public class Array<E> {
 
     }
 
-    E get(int index) {
+
+
+    public E get(int index) {
         if (index < 0 || index >= size) {
             throw new IllegalArgumentException("Get failed. Index is illegal.");
         }
@@ -57,7 +59,7 @@ public class Array<E> {
     }
 
     // 修改index索引位置的元素e
-    void set(int index, E e) {
+    public void set(int index, E e) {
         if (index < 0 || index >= size) {
             throw new IllegalArgumentException("Get failed. Index is illegal.");
         }
@@ -95,6 +97,9 @@ public class Array<E> {
         }
         size--;
         data[size] = null;
+        if(size == data.length / 2){
+            resize(data.length/2);
+        }
         return ret;
 
     }
@@ -132,5 +137,13 @@ public class Array<E> {
         res.append(']');
         return res.toString();
 
+    }
+
+    private void resize(int newCapacity) {
+        E[] newData = (E[]) new Object[newCapacity];
+        for (int i = 0; i < size; i++) {
+            newData[i] = data[i];
+        }
+        data = newData;
     }
 }
