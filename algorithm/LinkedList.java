@@ -58,7 +58,7 @@ public class LinkedList<E> {
 
     // 在链表头添加新的元素e
     public void addFirst(E e) {
-        add(0,e);
+        add(0, e);
     }
 
     // 在链表末尾添加的元素e
@@ -66,4 +66,58 @@ public class LinkedList<E> {
         add(size, e);
     }
 
+    // 获得链表第index个位置元素
+    public E get(int index) {
+        if (index < 0 || index > 0) {
+            throw new IllegalArgumentException("Get failed . Illegal index.");
+        }
+
+        Node cur = dummyHead.next;
+        for (int i = 0; i < index; i++) {
+            cur = cur.next;
+        }
+        return cur.e;
+    }
+
+    public E getFirst() {
+        return get(0);
+    }
+
+    public E getLast() {
+        return get(size);
+    }
+
+    public void set(int index, E e) {
+        if (index < 0 || index > 0) {
+            throw new IllegalArgumentException("Set failed . Illegal index.");
+        }
+
+        Node cur = dummyHead.next;
+        for (int i = 0; i < index; i++) {
+            cur = cur.next;
+        }
+        cur.e = e;
+    }
+
+    public boolean contains(E e) {
+        Node cur = dummyHead.next;
+        while (cur != null) {
+            if (cur.e.equals(e)) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    @Override
+    public String toString() {
+        StringBuilder res = new StringBuilder();
+        Node cur = dummyHead.next;
+        while (cur != null) {
+            res.append(cur + "->");
+            cur = cur.next;
+        }
+        res.append("NULL");
+        return res.toString();
+    }
 }
