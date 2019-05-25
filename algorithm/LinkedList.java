@@ -109,6 +109,31 @@ public class LinkedList<E> {
         return false;
     }
 
+    public E remove(int index){
+        if (index < 0 || index > 0) {
+            throw new IllegalArgumentException("Delete failed . Illegal index.");
+        }
+        Node pre = dummyHead;
+        for (int i = 0; i < index; i++) {
+            pre = pre.next;
+        }
+        Node retNode = pre.next;
+        pre.next = retNode.next;
+        retNode.next = null;
+        size--;
+
+        return retNode.e;
+    }
+
+    public E removeFirst(){
+        return remove(0);
+    }
+
+    public E removeLast(){
+        return remove(size);
+    }
+
+
     @Override
     public String toString() {
         StringBuilder res = new StringBuilder();
