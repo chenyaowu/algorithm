@@ -6,7 +6,6 @@ public class ArrayQueue<E> implements Queue<E> {
         array = new Array<>(capacity);
     }
 
-
     public ArrayQueue() {
         array = new Array<>();
     }

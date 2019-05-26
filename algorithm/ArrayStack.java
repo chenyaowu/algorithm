@@ -1,3 +1,8 @@
+/**
+ * 数组栈
+ * @param <E>
+ */
+
 public class ArrayStack<E> implements Stack<E> {
 
     Array<E> array;

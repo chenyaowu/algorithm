@@ -1,3 +1,7 @@
+/**
+ * 循环队列
+ * @param <E>
+ */
 public class LoopQuquq<E> implements Queue<E> {
 
     private E[] data;

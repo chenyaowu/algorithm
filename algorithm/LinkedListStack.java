@@ -1,3 +1,7 @@
+/**
+ * 链表栈
+ * @param <E>
+ */
 public class LinkedListStack<E> implements Stack<E> {
 
     private LinkedList<E> list;
