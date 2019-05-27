@@ -4,6 +4,7 @@
 | #    | 题名                                                         | 答案                                                         | 难度 |
 | ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---- |
 | 804    | [唯一摩尔斯密码词](https://leetcode-cn.com/problems/unique-morse-code-words/submissions/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Unique_MorseCode_Words.java)| 简单|
+| 349    | [两个数组的交集](https://leetcode-cn.com/problems/intersection-of-two-arrays/submissions/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Intersection_of_Two_Arrays.java)| 简单|
 | 203    | [移除链表元素](https://leetcode-cn.com/problems/remove-linked-list-elements/submissions/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Remove_Linked_List_Elements(Recursive).java)（递归解法） | 简单|
 | 203    | [移除链表元素](https://leetcode-cn.com/problems/remove-linked-list-elements/submissions/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Remove_Linked_List_Elements.java) | 简单|
 | 34    | [在排序数组中查找元素的第一个和最后一个位置](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/submissions/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Find_First_and_Last_Position_of_Element_in_Sorted_Array.java) | 中等|
