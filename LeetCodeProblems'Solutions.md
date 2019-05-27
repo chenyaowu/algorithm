@@ -5,6 +5,7 @@
 | ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---- |
 | 203    | [移除链表元素](https://leetcode-cn.com/problems/remove-linked-list-elements/submissions/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Remove_Linked_List_Elements(Recursive).java)（递归解法） | 简单|
 | 203    | [移除链表元素](https://leetcode-cn.com/problems/remove-linked-list-elements/submissions/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Remove_Linked_List_Elements.java) | 简单|
+| 34    | [在排序数组中查找元素的第一个和最后一个位置](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/submissions/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Find_First_and_Last_Position_of_Element_in_Sorted_Array.java) | 中等|
 | 33    | [搜索旋转排序数组](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/submissions/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Search_in_Rotated_Sorted_Array.java) | 中等|
 | 32    | [最长有效括号](https://leetcode-cn.com/problems/longest-valid-parentheses/submissions/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Longest_Valid_Parentheses.java) | 中等|
 | 31    | [下一个排列](https://leetcode-cn.com/problems/next-permutation/solution/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Next_Permutation.java) | 中等|
