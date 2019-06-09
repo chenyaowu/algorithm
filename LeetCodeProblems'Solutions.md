@@ -4,11 +4,14 @@
 | #    | 题名                                                         | 答案                                                         | 难度 |
 | ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---- |
 | 804    | [唯一摩尔斯密码词](https://leetcode-cn.com/problems/unique-morse-code-words/submissions/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Unique_MorseCode_Words.java)| 简单|
+| 677    | [键值映射](https://leetcode-cn.com/problems/map-sum-pairs/submissions/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Map_Sum_Pairs.java)| 中等|
 | 350    | [两个数组的交集 II](https://leetcode-cn.com/problems/intersection-of-two-arrays-ii/submissions/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Intersection_of_Two_Arrays_II.java)| 简单|
 | 349    | [两个数组的交集](https://leetcode-cn.com/problems/intersection-of-two-arrays/submissions/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Intersection_of_Two_Arrays.java)| 简单|
 | 347    | [前K个高频元素](https://leetcode-cn.com/problems/top-k-frequent-elements/submissions/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Top_K_Frequent_Elements.java)| 中等|
 | 307    | [区域和检索 - 数组可修改](https://leetcode-cn.com/problems/range-sum-query-mutable/submissions/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Range_Sum_Query_Mutable.java)| 简单|
 | 303    | [区域和检索 - 数组不可变](https://leetcode-cn.com/problems/range-sum-query-immutable/submissions/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Range_Sum_Query_Immutable.java)| 简单|
+| 211    | [添加与搜索单词 - 数据结构设计](https://leetcode-cn.com/problems/add-and-search-word-data-structure-design/submissions/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Add_and_Search_Word_Data_tructure_design.java)| 中等|
+| 208    | [实现 Trie (前缀树)](https://leetcode-cn.com/problems/implement-trie-prefix-tree/submissions/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Implement_Trie_(Prefix_Tree).java)| 中等|
 | 203    | [移除链表元素](https://leetcode-cn.com/problems/remove-linked-list-elements/submissions/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Remove_Linked_List_Elements(Recursive).java)（递归解法） | 简单|
 | 203    | [移除链表元素](https://leetcode-cn.com/problems/remove-linked-list-elements/submissions/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Remove_Linked_List_Elements.java) | 简单|
 | 34    | [在排序数组中查找元素的第一个和最后一个位置](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/submissions/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Find_First_and_Last_Position_of_Element_in_Sorted_Array.java) | 中等|
