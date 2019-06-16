@@ -2,7 +2,6 @@ public class LoopQuquq<E> implements Queue<E> {
 
     private E[] data;
     private int front, tail;
-    private int size;
 
     public LoopQuquq() {
         this(10);
@@ -12,7 +11,6 @@ public class LoopQuquq<E> implements Queue<E> {
         data = (E[]) new Object[capacity + 1];
         front = 0;
         tail = 0;
-        size = 0;
     }
 
     public int getCapacity() {
@@ -27,17 +25,17 @@ public class LoopQuquq<E> implements Queue<E> {
 
         data[tail] = e;
         tail = (tail + 1) % data.length;
-        size++;
     }
 
     private void resize(int newCapacity) {
         E[] newData = (E[]) new Object[newCapacity + 1];
-        for (int i = 0; i < size; i++) {
+        for (int i = 0; i < getSize(); i++) {
             newData[i] = data[(front + i) % data.length];
         }
-        data = newData;
+        tail = getSize();
         front = 0;
-        tail = size;
+        data = newData;
+
     }
 
     @Override
@@ -48,8 +46,7 @@ public class LoopQuquq<E> implements Queue<E> {
         E ret = data[front];
         data[front] = null;
         front = (front + 1) % data.length;
-        size--;
-        if (size == getCapacity() / 4 && getCapacity() / 2 != 0) {
+        if (getSize() == getCapacity() / 4 && getCapacity() / 2 != 0) {
             resize(getCapacity() / 2);
         }
         return ret;
@@ -65,7 +62,11 @@ public class LoopQuquq<E> implements Queue<E> {
 
     @Override
     public int getSize() {
-        return size;
+        if (tail < front) {
+            return tail + data.length - front;
+        }
+
+        return tail - front ;
     }
 
     @Override
@@ -76,7 +77,7 @@ public class LoopQuquq<E> implements Queue<E> {
     @Override
     public String toString() {
         StringBuilder res = new StringBuilder();
-        res.append(String.format("Array: size= %d, capacity = %d\n", size, getCapacity()));
+        res.append(String.format("Array: size= %d, capacity = %d\n", getSize(), getCapacity()));
         res.append("front [");
         for (int i = front; i != tail; i = (i + 1) % data.length) {
             res.append(data[i]);
