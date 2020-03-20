@@ -10,23 +10,23 @@
 - 数组最好应用于“索引有语义”的情况，但并非所有有语意的索引都适用于数组。（例如，身份证号）
 
 ### 向数组末尾添加元素
-![Arrary](E:\algorithm\img\Arrary2.png)
+![Arrary](https://github.com/chenyaowu/algorithm/blob/master/img/Arrary2.png)
 
-![Arrary](E:\algorithm\img\Arrary3.png)
+![Arrary](https://github.com/chenyaowu/algorithm/blob/master/img/Arrary3.png)
 ```java
 data[size] = e;
 size++
 ```
 ### 向数组指定位置添加元素
-![Arrary](E:\algorithm\img\Arrary4.png)
+![Arrary](https://github.com/chenyaowu/algorithm/blob/master/img/Arrary4.png)
 
-![Arrary](E:\algorithm\img\Arrary5.png)
+![Arrary](https://github.com/chenyaowu/algorithm/blob/master/img/Arrary5.png)
 
-![Arrary](E:\algorithm\img\Arrary6.png)
+![Arrary](https://github.com/chenyaowu/algorithm/blob/master/img/Arrary6.png)
 
-![Arrary](E:\algorithm\img\Arrary7.png)
+![Arrary](https://github.com/chenyaowu/algorithm/blob/master/img/Arrary7.png)
 
-![Arrary](E:\algorithm\img\Arrary8.png)
+![Arrary](https://github.com/chenyaowu/algorithm/blob/master/img/Arrary8.png)
 
 ```java
 data[size] = data[size-1];
@@ -45,13 +45,13 @@ size++
 ### 查找数组中某元素索引
 
 ### 删除指定位置元素
-![Arrary](E:\algorithm\img\Arrary9.png)
+![Arrary](https://github.com/chenyaowu/algorithm/blob/master/img/Arrary9.png)
 
-![Arrary](E:\algorithm\img\Arrary10.png)
+![Arrary](https://github.com/chenyaowu/algorithm/blob/master/img/Arrary10.png)
 
-![Arrary](E:\algorithm\img\Arrary11.png)
+![Arrary](https://github.com/chenyaowu/algorithm/blob/master/img/Arrary11.png)
 
-![Arrary](E:\algorithm\img\Arrary12.png)
+![Arrary](https://github.com/chenyaowu/algorithm/blob/master/img/Arrary12.png)
 
 ```java
 data[index] = data[index +1 ];
@@ -64,11 +64,11 @@ size--;
 ### 动态数组
 
 - 原来数组空间不够，增加数组容量
-  ![Arrary](E:\algorithm\img\Arrary13.png)
+  ![Arrary](https://github.com/chenyaowu/algorithm/blob/master/img/Arrary13.png)
   
-  ![Arrary](E:\algorithm\img\Arrary14.png)
+  ![Arrary](https://github.com/chenyaowu/algorithm/blob/master/img/Arrary14.png)
   
-  ![Arrary](E:\algorithm\img\Arrary15.png)
+  ![Arrary](https://github.com/chenyaowu/algorithm/blob/master/img/Arrary15.png)
 
 ```java
 resize(newCapacity);
@@ -131,7 +131,7 @@ data = newData;
 - 相比数组，栈对应的操作是数组的子集
 - 只能从一端添加元素，也只能从一端取出元素
 - 这一端称为栈顶
-![Arrary](E:\algorithm\img\Stack1.png)
+![Arrary](https://github.com/chenyaowu/algorithm/blob/master/img/Stack1.png)
 
 - 栈是一种后进先出的数据结构（LIFO）
 
@@ -147,7 +147,7 @@ data = newData;
 - 相比数组，队列对应的操作是数组的子集
 
 - 只能从一端（队尾）添加元素，只能从另一端（队首）取出元素
-  ![Queue](E:\algorithm\img\Queue.png)
+  ![Queue](https://github.com/chenyaowu/algorithm/blob/master/img/Queue.png)
 
   ### 数组队列的复杂度分析
   
@@ -162,15 +162,15 @@ data = newData;
   - 解决出队O(n)复杂度方法：循环队列
   
   ### 循环队列
-  ![Queue](E:\algorithm\img\Queue2.png)
+  ![Queue](https://github.com/chenyaowu/algorithm/blob/master/img/Queue2.png)
   
-  ![Queue](E:\algorithm\img\Queue3.png)
+  ![Queue](https://github.com/chenyaowu/algorithm/blob/master/img/Queue3.png)
   
-  ![Queue](E:\algorithm\img\Queue4.png)
+  ![Queue](https://github.com/chenyaowu/algorithm/blob/master/img/Queue4.png)
   
-  ![Queue](E:\algorithm\img\Queue5.png)
+  ![Queue](https://github.com/chenyaowu/algorithm/blob/master/img/Queue5.png)
   
-  ![Queue](E:\algorithm\img\Queue6.png)
+  ![Queue](https://github.com/chenyaowu/algorithm/blob/master/img/Queue6.png)
   
   ### 循环队列的复杂度分析
   
@@ -192,7 +192,7 @@ data = newData;
       Node next;
   }
   ```
-  ![LinkedList](E:\algorithm\img\LinkedList.png)
+  ![LinkedList](https://github.com/chenyaowu/algorithm/blob/master/img/LinkedList.png)
 
 - 优点：真正的动态，不需要处理固定容量的问题
 
@@ -202,9 +202,9 @@ data = newData;
 
   ### 在链表头添加元素
 
-   ![LinkedList](E:\algorithm\img\LinkedList2.png)
+   ![LinkedList](https://github.com/chenyaowu/algorithm/blob/master/img/LinkedList2.png)
   
-   ![LinkedList](E:\algorithm\img\LinkedList3.png)
+   ![LinkedList](https://github.com/chenyaowu/algorithm/blob/master/img/LinkedList3.png)
   
    ```java
   node.next = head;
@@ -212,13 +212,13 @@ data = newData;
    ```
   
   ### 在链表中间添加元素
-  ![LinkedList](E:\algorithm\img\LinkedList4.png)
+  ![LinkedList](https://github.com/chenyaowu/algorithm/blob/master/img/LinkedList4.png)
   
-  ![LinkedList](E:\algorithm\img\LinkedList5.png)
+  ![LinkedList](https://github.com/chenyaowu/algorithm/blob/master/img/LinkedList5.png)
   
-  ![LinkedList](E:\algorithm\img\LinkedList6.png)
+  ![LinkedList](https://github.com/chenyaowu/algorithm/blob/master/img/LinkedList6.png)
   
-  ![LinkedList](E:\algorithm\img\LinkedList7.png)
+  ![LinkedList](https://github.com/chenyaowu/algorithm/blob/master/img/LinkedList7.png)
   
   ```java
   node.next = prev.next;
@@ -227,18 +227,18 @@ data = newData;
   
   ### 链表虚拟头节点
   
-  ![LinkedList](E:\algorithm\img\LinkedList8.png)
+  ![LinkedList](https://github.com/chenyaowu/algorithm/blob/master/img/LinkedList8.png)
   
   ```java
   Node dummyHead = new Node(null);
   ```
   
   ### 删除元素
-  ![LinkedList](E:\algorithm\img\LinkedList9.png)
+  ![LinkedList](https://github.com/chenyaowu/algorithm/blob/master/img/LinkedList9.png)
   
-  ![LinkedList](E:\algorithm\img\LinkedList10.png)
+  ![LinkedList](https://github.com/chenyaowu/algorithm/blob/master/img/LinkedList10.png)
   
-  ![LinkedList](E:\algorithm\img\LinkedList11.png)
+  ![LinkedList](https://github.com/chenyaowu/algorithm/blob/master/img/LinkedList11.png)
   
   ```java
   prev.next = delNode.next;
@@ -259,7 +259,7 @@ data = newData;
 
 - 和链表一样，动态数据结构
 
-![Tree](E:\algorithm\img\Tree.png)
+![Tree](https://github.com/chenyaowu/algorithm/blob/master/img/Tree.png)
 
 
 
@@ -274,13 +274,13 @@ data = newData;
 
 ### 添加元素
 
-![Tree](E:\algorithm\img\Tree3.png)
+![Tree](https://github.com/chenyaowu/algorithm/blob/master/img/Tree3.png)
 
-![Tree](E:\algorithm\img\Tree4.png)
+![Tree](https://github.com/chenyaowu/algorithm/blob/master/img/Tree4.png)
 
-![Tree](E:\algorithm\img\Tree5.png)
+![Tree](https://github.com/chenyaowu/algorithm/blob/master/img/Tree5.png)
 
-![Tree](E:\algorithm\img\Tree6.png)
+![Tree](https://github.com/chenyaowu/algorithm/blob/master/img/Tree6.png)
 
 ```java
 
