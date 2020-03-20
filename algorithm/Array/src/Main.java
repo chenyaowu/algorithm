@@ -1,7 +1,8 @@
+
 public class Main {
 
     public static void main(String[] args) {
-       Array<Integer> arr = new Array<>();
+       array.Array<Integer> arr = new array.Array<>();
         for (int i = 0; i < 10; i++) {
             arr.addLast(i);
         }

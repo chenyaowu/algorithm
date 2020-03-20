@@ -1,33 +1,53 @@
+
 public class Array<E> {
 
     private E[] data;
     private int size;
 
+    /**
+     * 构造函数，传入数组的容量capacity构造Array
+     * @param capacity 容量
+     */
     public Array(int capacity) {
         data = (E[]) new Object[capacity];
         size = 0;
     }
-
+    /**
+     * 无参构造函数，默认数组的容量capacity=10
+     */
     public Array() {
         this(10);
     }
 
-    // 获取数组大小
+    /**
+     * 获取数组大小
+     * @return
+     */
     public int getSize() {
         return size;
     }
 
-    // 获取容量
+    /**
+     * 获取容量
+     * @return
+     */
     public int getCapacity() {
         return data.length;
     }
 
-    // 数组是否为空
+    /**
+     * 数组是否为空
+     * @return
+     */
     public boolean isEmpty() {
         return size == 0;
     }
 
-
+    /**
+     * 指定位置插入元素e
+     * @param index 索引
+     * @param e 元素
+     */
     public void add(int index, E e) {
 
         if (index < 0 || index > size) {
@@ -36,10 +56,8 @@ public class Array<E> {
         if (size == data.length) {
             resize(2 * data.length);
         }
+        System.arraycopy(data,size-1,data,size,index - size + 2);
 
-        for (int i = size - 1; i >= index; i--) {
-            data[i + 1] = data[i];
-        }
         data[index] = e;
         size++;
 
@@ -47,9 +65,7 @@ public class Array<E> {
 
     private void resize(int newCapacity) {
         E[] newData = (E[]) new Object[newCapacity];
-        for (int i = 0; i < size; i++) {
-            newData[i] = data[i];
-        }
+        System.arraycopy(data,0,newData,0,size-1);
         data = newData;
     }
 
@@ -76,6 +92,11 @@ public class Array<E> {
         return res.toString();
     }
 
+    /**
+     * 获取指定索引元素
+     * @param index 索引
+     * @return 元素
+     */
     public E get(int index) {
         if (index < 0 || index >= size) {
             throw new IllegalArgumentException("Get failed. Index out of array");
@@ -109,16 +130,20 @@ public class Array<E> {
         return -1;
     }
 
-    // 删除指定位置的元素，并返回
+    /**
+     * 删除指定位置的元素，并返回
+     * @param index 索引
+     * @return 元素
+     */
     public E remove(int index) {
         if (index < 0 || index >= size) {
             throw new IllegalArgumentException("Remove failed. Index out of array");
         }
 
         E res = data[index];
-        for (int i = index +1 ; i < size; i++) {
-            data[i-1] = data[i];
-        }
+
+        System.arraycopy(data,index+1, data,index,size-index-1);
+
         size--;
         data[size] = null;
 
