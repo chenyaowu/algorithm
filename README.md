@@ -4,7 +4,7 @@
 
 - 把数据码成一排进行存放
 
-  ![Arrary](E:\algorithm\img\Arrary1.png)
+  ![Arrary](https://github.com/chenyaowu/algorithm/blob/master/img/Arrary1.png)
 
 - 数组最大的有点：快速查询。
 - 数组最好应用于“索引有语义”的情况，但并非所有有语意的索引都适用于数组。（例如，身份证号）
