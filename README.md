@@ -282,9 +282,137 @@ data = newData;
 
 ![Tree](E:\algorithm\img\Tree6.png)
 
-```java
+### 遍历操作
+- 对于遍历操作
 
+  - 前序遍历（递归）
+
+  ```java
+  function traverse(node){
+      if(node == null){
+          return;
+      }
+      访问该节点
+  	traverse(node.left);
+  	traverse(node.right);
+  }
+  
+  ```
+
+  - 前序遍历（非递归）
+  
+	 ![Tree](E:\algorithm\img\Tree7.png)
+	
+	 ![Tree](E:\algorithm\img\Tree8.png)
+	
+	 ![Tree](E:\algorithm\img\Tree9.png)
+	
+	 ![Tree](E:\algorithm\img\Tree10.png)
+  
+  
+  
+  ```java
+stack.push(root);
+  while (!stack.isEmpty()) {
+    Node cur = stack.pop();
+      // 访问该节点
+      if (cur.right != null) {
+          stack.push(cur.right);
+      }
+      if (cur.left != null) {
+          stack.push(cur.left);
+      }
+  }
+  ```
+  
+
+  
+
+  
+  - 中序遍历
+  
+  ```java
+  function traverse(node){
+      if(node == null){
+          return;
+      }
+  	traverse(node.left);
+      访问该节点
+	traverse(node.right);
+  }
+  ```
 ```
+  
+  - 后序遍历
+  
+  ```java
+    function traverse(node){
+        if(node == null){
+            return;
+        }
+    	traverse(node.left);
+    	traverse(node.right);
+        访问该节点
+    }
+```
+
+  - 层序遍历
+  
+    ![Tree](E:\algorithm\img\Tree11.png)
+    
+    ![Tree](E:\algorithm\img\Tree12.png)
+    
+    ![Tree](E:\algorithm\img\Tree13.png)
+    
+    
+  
+    ```java
+    queue.add(root);
+    while (!queue.isEmpty()) {
+        Node cur = queue.remove();
+        访问该节点
+        if (cur.left != null) {
+            queue.add(cur.left);
+        }
+        if (cur.right != null) {
+            queue.add(cur.right);
+        }
+    }
+    ```
+    
+    ### 删除节点
+    
+    - 删除最小值
+    ![Tree](E:\algorithm\img\Tree14.png)
+    
+    ![Tree](E:\algorithm\img\Tree15.png)
+    
+    ![Tree](E:\algorithm\img\Tree16.png)
+    
+    ![Tree](E:\algorithm\img\Tree17.png)
+    
+    
+    
+    - 删除任意值
+     ![Tree](E:\algorithm\img\Tree18.png)
+    
+     ![Tree](E:\algorithm\img\Tree19.png)
+    
+     ![Tree](E:\algorithm\img\Tree20.png)
+    
+     ![Tree](E:\algorithm\img\Tree21.png)
+    
+     
+    
+    - 删除左右都有孩子的节点d
+    - 找到s=min(d->right)
+    - s是d的后继
+    - s->right = delMin(d->right)
+    - s-left = d->left
+    - 删除d,s是新的子树的根
+    
+    
+
 
 
 
