@@ -491,14 +491,14 @@ stack.push(root);
 
 ## 堆
 
-![Heap](img/Heap.png)
+![Heap](img/heap.png)
 
 - 二叉堆是一棵完全二叉树
 
 - 堆中某个节点的值总是不大于其父节点的值（最大堆）
 
   最大堆
-  ![Heap](img/Heap2.png)
+  ![Heap](img/heap2.png)
   
   ```java
   parent(i) = i /2 
@@ -508,53 +508,53 @@ stack.push(root);
   
   ### 添加元素
   
-   ![Heap](img/Heap3.png)
+   ![Heap](img/heap3.png)
   
-   ![Heap](img/Heap4.png)
+   ![Heap](img/heap4.png)
   
-   ![Heap](img/Heap5.png)
+   ![Heap](img/heap5.png)
   
    
   
   ### 取出元素
-  ![Heap](img/Heap6.png)
+  ![Heap](img/heap6.png)
   
-  ![Heap](img/Heap7.png)
+  ![Heap](img/heap7.png)
   
-  ![Heap](img/Heap8.png)
+  ![Heap](img/heap8.png)
   
-  ![Heap](img/Heap9.png)
+  ![Heap](img/heap9.png)
 
 ### 将任意数组整理成堆
 
 - heapify
 
 - 从最后一个非叶子结点开始siftDown
-  ![Heap](img/Heap10.png)
+  ![Heap](img/heap10.png)
 
-  ![Heap](img/Heap11.png)
+  ![Heap](img/heap11.png)
 
-  ![Heap](img/Heap12.png)
+  ![Heap](img/heap12.png)
 
-  ![Heap](img/Heap13.png)
+  ![Heap](img/heap13.png)
 
-  ![Heap](img/Heap14.png)
+  ![Heap](img/heap14.png)
 
-  ![Heap](img/Heap15.png)
+  ![Heap](img/heap15.png)
   
-  ![Heap](img/Heap16.png)
+  ![Heap](img/heap16.png)
   
-  ![Heap](img/Heap17.png)
+  ![Heap](img/heap17.png)
 
-  ![Heap](img/Heap18.png)
+  ![Heap](img/heap18.png)
 
-  ![Heap](img/Heap19.png)
+  ![Heap](img/heap19.png)
   
-  ![Heap](img/Heap20.png)
+  ![Heap](img/heap20.png)
   
-  ![Heap](img/Heap21.png)
+  ![Heap](img/heap21.png)
 
-  ![Heap](img/Heap22.png)
+  ![Heap](img/heap22.png)
   
 
 
