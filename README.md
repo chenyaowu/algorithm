@@ -4,29 +4,29 @@
 
 - 把数据码成一排进行存放
 
-  ![Arrary](https://github.com/chenyaowu/algorithm/blob/master/img/Arrary1.png)
+  ![Arrary](img/Arrary1.png)
 
 - 数组最大的有点：快速查询。
 - 数组最好应用于“索引有语义”的情况，但并非所有有语意的索引都适用于数组。（例如，身份证号）
 
 ### 向数组末尾添加元素
-![Arrary](https://github.com/chenyaowu/algorithm/blob/master/img/Arrary2.png)
+![Arrary](img/Arrary2.png)
 
-![Arrary](https://github.com/chenyaowu/algorithm/blob/master/img/Arrary3.png)
+![Arrary](img/Arrary3.png)
 ```java
 data[size] = e;
 size++
 ```
 ### 向数组指定位置添加元素
-![Arrary](https://github.com/chenyaowu/algorithm/blob/master/img/Arrary4.png)
+![Arrary](img/Arrary4.png)
 
-![Arrary](https://github.com/chenyaowu/algorithm/blob/master/img/Arrary5.png)
+![Arrary](img/Arrary5.png)
 
-![Arrary](https://github.com/chenyaowu/algorithm/blob/master/img/Arrary6.png)
+![Arrary](img/Arrary6.png)
 
-![Arrary](https://github.com/chenyaowu/algorithm/blob/master/img/Arrary7.png)
+![Arrary](img/Arrary7.png)
 
-![Arrary](https://github.com/chenyaowu/algorithm/blob/master/img/Arrary8.png)
+![Arrary](img/Arrary8.png)
 
 ```java
 data[size] = data[size-1];
@@ -45,13 +45,13 @@ size++
 ### 查找数组中某元素索引
 
 ### 删除指定位置元素
-![Arrary](https://github.com/chenyaowu/algorithm/blob/master/img/Arrary9.png)
+![Arrary](img/Arrary9.png)
 
-![Arrary](https://github.com/chenyaowu/algorithm/blob/master/img/Arrary10.png)
+![Arrary](img/Arrary10.png)
 
-![Arrary](https://github.com/chenyaowu/algorithm/blob/master/img/Arrary11.png)
+![Arrary](img/Arrary11.png)
 
-![Arrary](https://github.com/chenyaowu/algorithm/blob/master/img/Arrary12.png)
+![Arrary](img/Arrary12.png)
 
 ```java
 data[index] = data[index +1 ];
@@ -64,11 +64,11 @@ size--;
 ### 动态数组
 
 - 原来数组空间不够，增加数组容量
-  ![Arrary](https://github.com/chenyaowu/algorithm/blob/master/img/Arrary13.png)
+  ![Arrary](img/Arrary13.png)
   
-  ![Arrary](https://github.com/chenyaowu/algorithm/blob/master/img/Arrary14.png)
+  ![Arrary](img/Arrary14.png)
   
-  ![Arrary](https://github.com/chenyaowu/algorithm/blob/master/img/Arrary15.png)
+  ![Arrary](img/Arrary15.png)
 
 ```java
 resize(newCapacity);
@@ -131,7 +131,7 @@ data = newData;
 - 相比数组，栈对应的操作是数组的子集
 - 只能从一端添加元素，也只能从一端取出元素
 - 这一端称为栈顶
-![Arrary](https://github.com/chenyaowu/algorithm/blob/master/img/Stack1.png)
+![Arrary](img/Stack1.png)
 
 - 栈是一种后进先出的数据结构（LIFO）
 
@@ -147,7 +147,7 @@ data = newData;
 - 相比数组，队列对应的操作是数组的子集
 
 - 只能从一端（队尾）添加元素，只能从另一端（队首）取出元素
-  ![Queue](https://github.com/chenyaowu/algorithm/blob/master/img/Queue.png)
+  ![Queue](img/Queue.png)
 
   ### 数组队列的复杂度分析
   
@@ -162,15 +162,15 @@ data = newData;
   - 解决出队O(n)复杂度方法：循环队列
   
   ### 循环队列
-  ![Queue](https://github.com/chenyaowu/algorithm/blob/master/img/Queue2.png)
+  ![Queue](img/Queue2.png)
   
-  ![Queue](https://github.com/chenyaowu/algorithm/blob/master/img/Queue3.png)
+  ![Queue](img/Queue3.png)
   
-  ![Queue](https://github.com/chenyaowu/algorithm/blob/master/img/Queue4.png)
+  ![Queue](img/Queue4.png)
   
-  ![Queue](https://github.com/chenyaowu/algorithm/blob/master/img/Queue5.png)
+  ![Queue](img/Queue5.png)
   
-  ![Queue](https://github.com/chenyaowu/algorithm/blob/master/img/Queue6.png)
+  ![Queue](img/Queue6.png)
   
   ### 循环队列的复杂度分析
   
@@ -192,7 +192,7 @@ data = newData;
       Node next;
   }
   ```
-  ![LinkedList](https://github.com/chenyaowu/algorithm/blob/master/img/LinkedList.png)
+  ![LinkedList](img/LinkedList.png)
 
 - 优点：真正的动态，不需要处理固定容量的问题
 
@@ -202,9 +202,9 @@ data = newData;
 
   ### 在链表头添加元素
 
-   ![LinkedList](https://github.com/chenyaowu/algorithm/blob/master/img/LinkedList2.png)
+   ![LinkedList](img/LinkedList2.png)
   
-   ![LinkedList](https://github.com/chenyaowu/algorithm/blob/master/img/LinkedList3.png)
+   ![LinkedList](img/LinkedList3.png)
   
    ```java
   node.next = head;
@@ -212,13 +212,13 @@ data = newData;
    ```
   
   ### 在链表中间添加元素
-  ![LinkedList](https://github.com/chenyaowu/algorithm/blob/master/img/LinkedList4.png)
+  ![LinkedList](img/LinkedList4.png)
   
-  ![LinkedList](https://github.com/chenyaowu/algorithm/blob/master/img/LinkedList5.png)
+  ![LinkedList](img/LinkedList5.png)
   
-  ![LinkedList](https://github.com/chenyaowu/algorithm/blob/master/img/LinkedList6.png)
+  ![LinkedList](img/LinkedList6.png)
   
-  ![LinkedList](https://github.com/chenyaowu/algorithm/blob/master/img/LinkedList7.png)
+  ![LinkedList](img/LinkedList7.png)
   
   ```java
   node.next = prev.next;
@@ -227,18 +227,18 @@ data = newData;
   
   ### 链表虚拟头节点
   
-  ![LinkedList](https://github.com/chenyaowu/algorithm/blob/master/img/LinkedList8.png)
+  ![LinkedList](img/LinkedList8.png)
   
   ```java
   Node dummyHead = new Node(null);
   ```
   
   ### 删除元素
-  ![LinkedList](https://github.com/chenyaowu/algorithm/blob/master/img/LinkedList9.png)
+  ![LinkedList](img/LinkedList9.png)
   
-  ![LinkedList](https://github.com/chenyaowu/algorithm/blob/master/img/LinkedList10.png)
+  ![LinkedList](img/LinkedList10.png)
   
-  ![LinkedList](https://github.com/chenyaowu/algorithm/blob/master/img/LinkedList11.png)
+  ![LinkedList](img/LinkedList11.png)
   
   ```java
   prev.next = delNode.next;
@@ -259,7 +259,7 @@ data = newData;
 
 - 和链表一样，动态数据结构
 
-![Tree](https://github.com/chenyaowu/algorithm/blob/master/img/Tree.png)
+![Tree](img/Tree.png)
 
 
 
@@ -270,17 +270,17 @@ data = newData;
   - 大于其左子树的所有节点的值
   - 小于其右子树的所有节点的值
 - 存储的元素必须有可比较性
-![Tree](https://github.com/chenyaowu/algorithm/blob/master/img/Tree2.png)
+![Tree](img/Tree2.png)
 
 ### 添加元素
 
-![Tree](https://github.com/chenyaowu/algorithm/blob/master/img/Tree3.png)
+![Tree](img/Tree3.png)
 
-![Tree](https://github.com/chenyaowu/algorithm/blob/master/img/Tree4.png)
+![Tree](img/Tree4.png)
 
-![Tree](https://github.com/chenyaowu/algorithm/blob/master/img/Tree5.png)
+![Tree](img/Tree5.png)
 
-![Tree](https://github.com/chenyaowu/algorithm/blob/master/img/Tree6.png)
+![Tree](img/Tree6.png)
 
 ### 遍历操作
 - 对于遍历操作
@@ -301,13 +301,13 @@ data = newData;
 
   - 前序遍历（非递归）
   
-	 ![Tree](https://github.com/chenyaowu/algorithm/blob/master/img/Tree7.png)
+	 ![Tree](img/Tree7.png)
 	
-	 ![Tree](https://github.com/chenyaowu/algorithm/blob/master/img/Tree8.png)
+	 ![Tree](img/Tree8.png)
 	
-	 ![Tree](https://github.com/chenyaowu/algorithm/blob/master/img/Tree9.png)
+	 ![Tree](img/Tree9.png)
 	
-	 ![Tree](https://github.com/chenyaowu/algorithm/blob/master/img/Tree10.png)
+	 ![Tree](img/Tree10.png)
   
   
   
@@ -358,11 +358,11 @@ stack.push(root);
 
   - 层序遍历
   
-    ![Tree](https://github.com/chenyaowu/algorithm/blob/master/img/Tree11.png)
+    ![Tree](img/Tree11.png)
     
-    ![Tree](https://github.com/chenyaowu/algorithm/blob/master/img/Tree12.png)
+    ![Tree](img/Tree12.png)
     
-    ![Tree](https://github.com/chenyaowu/algorithm/blob/master/img/Tree13.png)
+    ![Tree](img/Tree13.png)
     
     
   
@@ -383,24 +383,24 @@ stack.push(root);
     ### 删除节点
     
     - 删除最小值
-    ![Tree](https://github.com/chenyaowu/algorithm/blob/master/img/Tree14.png)
+    ![Tree](img/Tree14.png)
     
-    ![Tree](https://github.com/chenyaowu/algorithm/blob/master/img/Tree15.png)
+    ![Tree](img/Tree15.png)
     
-    ![Tree](https://github.com/chenyaowu/algorithm/blob/master/img/Tree16.png)
+    ![Tree](img/Tree16.png)
     
-    ![Tree](https://github.com/chenyaowu/algorithm/blob/master/img/Tree17.png)
+    ![Tree](img/Tree17.png)
     
     
     
     - 删除任意值
-     ![Tree](https://github.com/chenyaowu/algorithm/blob/master/img/Tree18.png)
+     ![Tree](img/Tree18.png)
     
-     ![Tree](https://github.com/chenyaowu/algorithm/blob/master/img/Tree19.png)
+     ![Tree](img/Tree19.png)
     
-     ![Tree](https://github.com/chenyaowu/algorithm/blob/master/img/Tree20.png)
+     ![Tree](img/Tree20.png)
     
-     ![Tree](https://github.com/chenyaowu/algorithm/blob/master/img/Tree21.png)
+     ![Tree](img/Tree21.png)
     
      
     
@@ -491,14 +491,14 @@ stack.push(root);
 
 ## 堆
 
-![Heap](https://github.com/chenyaowu/algorithm/blob/master/img/Heap.png)
+![Heap](img/Heap.png)
 
 - 二叉堆是一棵完全二叉树
 
 - 堆中某个节点的值总是不大于其父节点的值（最大堆）
 
   最大堆
-  ![Heap](https://github.com/chenyaowu/algorithm/blob/master/img/Heap2.png)
+  ![Heap](img/Heap2.png)
   
   ```java
   parent(i) = i /2 
@@ -508,53 +508,53 @@ stack.push(root);
   
   ### 添加元素
   
-   ![Heap](https://github.com/chenyaowu/algorithm/blob/master/img/Heap3.png)
+   ![Heap](img/Heap3.png)
   
-   ![Heap](https://github.com/chenyaowu/algorithm/blob/master/img/Heap4.png)
+   ![Heap](img/Heap4.png)
   
-   ![Heap](https://github.com/chenyaowu/algorithm/blob/master/img/Heap5.png)
+   ![Heap](img/Heap5.png)
   
    
   
   ### 取出元素
-  ![Heap](https://github.com/chenyaowu/algorithm/blob/master/img/Heap6.png)
+  ![Heap](img/Heap6.png)
   
-  ![Heap](https://github.com/chenyaowu/algorithm/blob/master/img/Heap7.png)
+  ![Heap](img/Heap7.png)
   
-  ![Heap](https://github.com/chenyaowu/algorithm/blob/master/img/Heap8.png)
+  ![Heap](img/Heap8.png)
   
-  ![Heap](https://github.com/chenyaowu/algorithm/blob/master/img/Heap9.png)
+  ![Heap](img/Heap9.png)
 
 ### 将任意数组整理成堆
 
 - heapify
 
 - 从最后一个非叶子结点开始siftDown
-  ![Heap](https://github.com/chenyaowu/algorithm/blob/master/img/Heap10.png)
+  ![Heap](img/Heap10.png)
 
-  ![Heap](https://github.com/chenyaowu/algorithm/blob/master/img/Heap11.png)
+  ![Heap](img/Heap11.png)
 
-  ![Heap](https://github.com/chenyaowu/algorithm/blob/master/img/Heap12.png)
+  ![Heap](img/Heap12.png)
 
-  ![Heap](https://github.com/chenyaowu/algorithm/blob/master/img/Heap13.png)
+  ![Heap](img/Heap13.png)
 
-  ![Heap](https://github.com/chenyaowu/algorithm/blob/master/img/Heap14.png)
+  ![Heap](img/Heap14.png)
 
-  ![Heap](https://github.com/chenyaowu/algorithm/blob/master/img/Heap15.png)
+  ![Heap](img/Heap15.png)
   
-  ![Heap](https://github.com/chenyaowu/algorithm/blob/master/img/Heap16.png)
+  ![Heap](img/Heap16.png)
   
-  ![Heap](https://github.com/chenyaowu/algorithm/blob/master/img/Heap17.png)
+  ![Heap](img/Heap17.png)
 
-  ![Heap](https://github.com/chenyaowu/algorithm/blob/master/img/Heap18.png)
+  ![Heap](img/Heap18.png)
 
-  ![Heap](https://github.com/chenyaowu/algorithm/blob/master/img/Heap19.png)
+  ![Heap](img/Heap19.png)
   
-  ![Heap](https://github.com/chenyaowu/algorithm/blob/master/img/Heap20.png)
+  ![Heap](img/Heap20.png)
   
-  ![Heap](https://github.com/chenyaowu/algorithm/blob/master/img/Heap21.png)
+  ![Heap](img/Heap21.png)
 
-  ![Heap](https://github.com/chenyaowu/algorithm/blob/master/img/Heap22.png)
+  ![Heap](img/Heap22.png)
   
 
 
