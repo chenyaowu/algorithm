@@ -412,6 +412,151 @@ stack.push(root);
     - 删除d,s是新的子树的根
     
     
+    
+    ## 集合
+    
+    - Set
+    - 不能添加重复元素
+    
+    ### 有序和无序集合
+    
+    - 有序集合基于搜索树实现
+    - 无序集合基于哈希表实现
+    
+    ### 复杂度分析
+    
+    ​			LinkedListSet			BSTSet
+    
+    增			O(n)						O(h)	[ O(logn) ~ O(n) ]	
+    
+    删			O(n)						O(h)	[ O(logn) ~ O(n) ]	
+    
+    查			O(n)						O(h)	[ O(logn) ~ O(n) ]	
+    
+    最佳情况：h = log2(n+1)
+    
+    最差情况：n = h
+    
+    
+    
+    
+    
+    ## 映射
+    
+    - Map
+    - 存储（键，值）数据对的数据结果（Key，Value）
+    - 根据键（Key），寻找值（Value）
+    
+    
+    
+    ### 有序和无序映射
+    
+    - 有序映射基于搜索树实现
+    - 无序映射基于哈希表实现
+    
+    
+    
+    ### 复杂度分析
+    
+    ​			LinkedListSet			BSTSet
+    
+    增			O(n)						O(h)	[ O(logn) ~ O(n) ]	
+    
+    删			O(n)						O(h)	[ O(logn) ~ O(n) ]	
+    
+    查			O(n)						O(h)	[ O(logn) ~ O(n) ]	
+    
+    最佳情况：h = log2(n+1)
+    
+    最差情况：n = h
+    
+    
+    
+
+## 优先队列
+
+- 普通队列：先进先出；后进后出
+
+- 优先队列：出队顺序和入队顺序无关；和优先级相关
+
+- 动态选择优先级最高的任务执行
+
+  ​        						入队			出队
+
+​		普通线性结构        O(1)              O(n)
+
+​		顺序线性结构        O(n)              O(1)
+
+​		堆						O(logn)		   O(logn)
+
+## 堆
+
+![Heap](E:\algorithm\img\Heap.png)
+
+- 二叉堆是一棵完全二叉树
+
+- 堆中某个节点的值总是不大于其父节点的值（最大堆）
+
+  最大堆
+  ![Heap](E:\algorithm\img\Heap2.png)
+  
+  ```java
+  parent(i) = i /2 
+  left chid (i) = 2 * i;
+  right child (2) = 2 * i + 1;
+  ```
+  
+  ### 添加元素
+  
+   ![Heap](E:\algorithm\img\Heap3.png)
+  
+   ![Heap](E:\algorithm\img\Heap4.png)
+  
+   ![Heap](E:\algorithm\img\Heap5.png)
+  
+   
+  
+  ### 取出元素
+  ![Heap](E:\algorithm\img\Heap6.png)
+  
+  ![Heap](E:\algorithm\img\Heap7.png)
+  
+  ![Heap](E:\algorithm\img\Heap8.png)
+  
+  ![Heap](E:\algorithm\img\Heap9.png)
+
+### 将任意数组整理成堆
+
+- heapify
+
+- 从最后一个非叶子结点开始siftDown
+  ![Heap](E:\algorithm\img\Heap10.png)
+
+  ![Heap](E:\algorithm\img\Heap11.png)
+
+  ![Heap](E:\algorithm\img\Heap12.png)
+
+  ![Heap](E:\algorithm\img\Heap13.png)
+
+  ![Heap](E:\algorithm\img\Heap14.png)
+
+  ![Heap](E:\algorithm\img\Heap15.png)
+  
+  ![Heap](E:\algorithm\img\Heap16.png)
+  
+  ![Heap](E:\algorithm\img\Heap17.png)
+
+  ![Heap](E:\algorithm\img\Heap18.png)
+
+  ![Heap](E:\algorithm\img\Heap19.png)
+  
+  ![Heap](E:\algorithm\img\Heap20.png)
+  
+  ![Heap](E:\algorithm\img\Heap21.png)
+
+  ![Heap](E:\algorithm\img\Heap22.png)
+  
+
 
 
 
