@@ -270,7 +270,7 @@ data = newData;
   - 大于其左子树的所有节点的值
   - 小于其右子树的所有节点的值
 - 存储的元素必须有可比较性
-![Tree](E:\algorithm\img\Tree2.png)
+![Tree](https://github.com/chenyaowu/algorithm/blob/master/img/Tree2.png)
 
 ### 添加元素
 
@@ -301,13 +301,13 @@ data = newData;
 
   - 前序遍历（非递归）
   
-	 ![Tree](E:\algorithm\img\Tree7.png)
+	 ![Tree](https://github.com/chenyaowu/algorithm/blob/master/img/Tree7.png)
 	
-	 ![Tree](E:\algorithm\img\Tree8.png)
+	 ![Tree](https://github.com/chenyaowu/algorithm/blob/master/img/Tree8.png)
 	
-	 ![Tree](E:\algorithm\img\Tree9.png)
+	 ![Tree](https://github.com/chenyaowu/algorithm/blob/master/img/Tree9.png)
 	
-	 ![Tree](E:\algorithm\img\Tree10.png)
+	 ![Tree](https://github.com/chenyaowu/algorithm/blob/master/img/Tree10.png)
   
   
   
@@ -358,11 +358,11 @@ stack.push(root);
 
   - 层序遍历
   
-    ![Tree](E:\algorithm\img\Tree11.png)
+    ![Tree](https://github.com/chenyaowu/algorithm/blob/master/img/Tree11.png)
     
-    ![Tree](E:\algorithm\img\Tree12.png)
+    ![Tree](https://github.com/chenyaowu/algorithm/blob/master/img/Tree12.png)
     
-    ![Tree](E:\algorithm\img\Tree13.png)
+    ![Tree](https://github.com/chenyaowu/algorithm/blob/master/img/Tree13.png)
     
     
   
@@ -383,24 +383,24 @@ stack.push(root);
     ### 删除节点
     
     - 删除最小值
-    ![Tree](E:\algorithm\img\Tree14.png)
+    ![Tree](https://github.com/chenyaowu/algorithm/blob/master/img/Tree14.png)
     
-    ![Tree](E:\algorithm\img\Tree15.png)
+    ![Tree](https://github.com/chenyaowu/algorithm/blob/master/img/Tree15.png)
     
-    ![Tree](E:\algorithm\img\Tree16.png)
+    ![Tree](https://github.com/chenyaowu/algorithm/blob/master/img/Tree16.png)
     
-    ![Tree](E:\algorithm\img\Tree17.png)
+    ![Tree](https://github.com/chenyaowu/algorithm/blob/master/img/Tree17.png)
     
     
     
     - 删除任意值
-     ![Tree](E:\algorithm\img\Tree18.png)
+     ![Tree](https://github.com/chenyaowu/algorithm/blob/master/img/Tree18.png)
     
-     ![Tree](E:\algorithm\img\Tree19.png)
+     ![Tree](https://github.com/chenyaowu/algorithm/blob/master/img/Tree19.png)
     
-     ![Tree](E:\algorithm\img\Tree20.png)
+     ![Tree](https://github.com/chenyaowu/algorithm/blob/master/img/Tree20.png)
     
-     ![Tree](E:\algorithm\img\Tree21.png)
+     ![Tree](https://github.com/chenyaowu/algorithm/blob/master/img/Tree21.png)
     
      
     
@@ -491,14 +491,14 @@ stack.push(root);
 
 ## 堆
 
-![Heap](E:\algorithm\img\Heap.png)
+![Heap](https://github.com/chenyaowu/algorithm/blob/master/img/Heap.png)
 
 - 二叉堆是一棵完全二叉树
 
 - 堆中某个节点的值总是不大于其父节点的值（最大堆）
 
   最大堆
-  ![Heap](E:\algorithm\img\Heap2.png)
+  ![Heap](https://github.com/chenyaowu/algorithm/blob/master/img/Heap2.png)
   
   ```java
   parent(i) = i /2 
@@ -508,53 +508,53 @@ stack.push(root);
   
   ### 添加元素
   
-   ![Heap](E:\algorithm\img\Heap3.png)
+   ![Heap](https://github.com/chenyaowu/algorithm/blob/master/img/Heap3.png)
   
-   ![Heap](E:\algorithm\img\Heap4.png)
+   ![Heap](https://github.com/chenyaowu/algorithm/blob/master/img/Heap4.png)
   
-   ![Heap](E:\algorithm\img\Heap5.png)
+   ![Heap](https://github.com/chenyaowu/algorithm/blob/master/img/Heap5.png)
   
    
   
   ### 取出元素
-  ![Heap](E:\algorithm\img\Heap6.png)
+  ![Heap](https://github.com/chenyaowu/algorithm/blob/master/img/Heap6.png)
   
-  ![Heap](E:\algorithm\img\Heap7.png)
+  ![Heap](https://github.com/chenyaowu/algorithm/blob/master/img/Heap7.png)
   
-  ![Heap](E:\algorithm\img\Heap8.png)
+  ![Heap](https://github.com/chenyaowu/algorithm/blob/master/img/Heap8.png)
   
-  ![Heap](E:\algorithm\img\Heap9.png)
+  ![Heap](https://github.com/chenyaowu/algorithm/blob/master/img/Heap9.png)
 
 ### 将任意数组整理成堆
 
 - heapify
 
 - 从最后一个非叶子结点开始siftDown
-  ![Heap](E:\algorithm\img\Heap10.png)
+  ![Heap](https://github.com/chenyaowu/algorithm/blob/master/img/Heap10.png)
 
-  ![Heap](E:\algorithm\img\Heap11.png)
+  ![Heap](https://github.com/chenyaowu/algorithm/blob/master/img/Heap11.png)
 
-  ![Heap](E:\algorithm\img\Heap12.png)
+  ![Heap](https://github.com/chenyaowu/algorithm/blob/master/img/Heap12.png)
 
-  ![Heap](E:\algorithm\img\Heap13.png)
+  ![Heap](https://github.com/chenyaowu/algorithm/blob/master/img/Heap13.png)
 
-  ![Heap](E:\algorithm\img\Heap14.png)
+  ![Heap](https://github.com/chenyaowu/algorithm/blob/master/img/Heap14.png)
 
-  ![Heap](E:\algorithm\img\Heap15.png)
+  ![Heap](https://github.com/chenyaowu/algorithm/blob/master/img/Heap15.png)
   
-  ![Heap](E:\algorithm\img\Heap16.png)
+  ![Heap](https://github.com/chenyaowu/algorithm/blob/master/img/Heap16.png)
   
-  ![Heap](E:\algorithm\img\Heap17.png)
+  ![Heap](https://github.com/chenyaowu/algorithm/blob/master/img/Heap17.png)
 
-  ![Heap](E:\algorithm\img\Heap18.png)
+  ![Heap](https://github.com/chenyaowu/algorithm/blob/master/img/Heap18.png)
 
-  ![Heap](E:\algorithm\img\Heap19.png)
+  ![Heap](https://github.com/chenyaowu/algorithm/blob/master/img/Heap19.png)
   
-  ![Heap](E:\algorithm\img\Heap20.png)
+  ![Heap](https://github.com/chenyaowu/algorithm/blob/master/img/Heap20.png)
   
-  ![Heap](E:\algorithm\img\Heap21.png)
+  ![Heap](https://github.com/chenyaowu/algorithm/blob/master/img/Heap21.png)
 
-  ![Heap](E:\algorithm\img\Heap22.png)
+  ![Heap](https://github.com/chenyaowu/algorithm/blob/master/img/Heap22.png)
   
 
 
