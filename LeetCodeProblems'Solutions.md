@@ -17,6 +17,7 @@
 | 118    | [杨辉三角](https://leetcode-cn.com/problems/pascals-triangle/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Pascals_Triangle.java) | 简单|
 | 88    | [合并两个有序数组](https://leetcode-cn.com/problems/merge-sorted-array/submissions/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Merge_Sorted_Array.java) | 简单|
 | 83    | [ 删除排序链表中的重复元素](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Remove_Duplicates_From_Sorted_List.java) | 简单|
+| 39    | [组合总和](https://leetcode-cn.com/problems/combination-sum/submissions/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Combination_Sum.java) | 中等|
 | 35    | [搜索插入位置](https://leetcode-cn.com/problems/search-insert-position/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Search_Insert_Position.java) | 简单|
 | 34    | [在排序数组中查找元素的第一个和最后一个位置](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/submissions/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Find_First_and_Last_Position_of_Element_in_Sorted_Array.java) | 中等|
 | 33    | [搜索旋转排序数组](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/submissions/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Search_in_Rotated_Sorted_Array.java) | 中等|
