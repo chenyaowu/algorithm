@@ -557,54 +557,21 @@ stack.push(root);
   ![Heap](img/heap22.png)
   
 
-
-
-
-
-## 简单的时间复杂度分析
-
-- O(1)，O(n)，O(lgn)，O(nlogn)，O(n^2)
-
-- 大O描述的是算法的运行时间和输入数据之间的关系
-
-- eg: 时间复杂度是O(n)，n是nums中的元素个数，算法和n呈线性关系
-
-  ```jade
-  public static int sum(int[] nums){
-  	int sum = 0;
-  	for(int num : nums){
-  		sum += num;
-  	}
-  	return sum;
-  }
-  ```
-
-## 均摊复杂度
-
-
-
-## 复杂度震荡
-
-- 同时调用addLast和remove
-
-
-
-## 优先队列
-
-|              | 入队    | 出队（拿出最大元素） |
-| ------------ | ------- | -------------------- |
-| 普通线性结构 | O(1)    | O(n)                 |
-| 顺序线性结构 | O(n)    | O(1)                 |
-| 堆           | O(logn) | O(logn)              |
-
-
-
 ## 线段树
 
-- 基于区间的统计查询
+- 线段树不是完全二叉树
+- 线段树是平衡二叉树（堆也是）
+- 如果区间有N个元素，数组表示需要4n个节点
 
-|      | 数组 | 线段树  |
-| ---- | ---- | ------- |
-| 更新 | O(n) | O(logn) |
-| 查询 | O(n) | O(logn) |
+![SegmentTree](img/SegmentTree.png)
 
+### 查询
+![SegmentTree](img/SegmentTree2.png)
+
+![SegmentTree](img/SegmentTree3.png)
+
+​								使用数组实现		使用线段树
+
+​				更新				O(n)					O(logn)
+
+​				查询				O(n)					O(logn)
