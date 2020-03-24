@@ -14,6 +14,7 @@
 | 208    | [实现 Trie (前缀树)](https://leetcode-cn.com/problems/implement-trie-prefix-tree/submissions/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Implement_Trie_(Prefix_Tree).java)| 中等|
 | 203    | [移除链表元素](https://leetcode-cn.com/problems/remove-linked-list-elements/submissions/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Remove_Linked_List_Elements(Recursive).java)（递归解法） | 简单|
 | 203    | [移除链表元素](https://leetcode-cn.com/problems/remove-linked-list-elements/submissions/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Remove_Linked_List_Elements.java) | 简单|
+| 119    | [杨辉三角 II](https://leetcode-cn.com/problems/pascals-triangle-ii/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Pascals_Triangle_II.java) | 简单|
 | 118    | [杨辉三角](https://leetcode-cn.com/problems/pascals-triangle/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Pascals_Triangle.java) | 简单|
 | 88    | [合并两个有序数组](https://leetcode-cn.com/problems/merge-sorted-array/submissions/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Merge_Sorted_Array.java) | 简单|
 | 83    | [ 删除排序链表中的重复元素](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Remove_Duplicates_From_Sorted_List.java) | 简单|
