@@ -3,6 +3,7 @@
 
 | #    | 题名                                                         | 答案                                                         | 难度 |
 | ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---- |
+| 832    | [翻转图像](https://leetcode-cn.com/problems/flipping-an-image/submissions/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Flipping_an_Image.java)| 简单|
 | 804    | [唯一摩尔斯密码词](https://leetcode-cn.com/problems/unique-morse-code-words/submissions/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Unique_MorseCode_Words.java)| 简单|
 | 677    | [键值映射](https://leetcode-cn.com/problems/map-sum-pairs/submissions/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Map_Sum_Pairs.java)| 中等|
 | 350    | [两个数组的交集 II](https://leetcode-cn.com/problems/intersection-of-two-arrays-ii/submissions/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Intersection_of_Two_Arrays_II.java)| 简单|
