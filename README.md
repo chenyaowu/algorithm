@@ -575,3 +575,283 @@ stack.push(root);
 ​				更新				O(n)					O(logn)
 
 ​				查询				O(n)					O(logn)
+
+## 前缀树
+
+- Trie
+- 每个节点有若干向下个节点的指针
+![Trie](img/Trie.png)
+
+
+
+## 并查集
+
+### 数组实现
+
+![UF](img/UF.png)
+
+#### 查找
+
+```java
+id[p]
+```
+
+#### 查看是否连接
+
+```java
+id[p] == id[q]
+```
+
+#### 合并
+![UF](img/UF2.png)
+
+![UF](img/UF3.png)
+
+
+```java
+int pId = find(p);
+int qId = find(q);
+if (pId == qId) {
+    return;
+}
+
+for (int i = 0; i < id.length; i++) {
+    if (id[i] == qId) {
+        id[i] = pId;
+    }
+}
+```
+
+### 树实现
+![UF](img/UF4.png)
+
+#### 查找（根节点）
+
+```java
+int root = parent[p];
+while(root != p){
+   root =parent[root];
+}
+return root;
+```
+
+#### 查看是否连接
+
+```java
+find(p) == find(q);
+```
+
+#### 合并
+![UF](img/UF5.png)
+
+![UF](img/UF6.png)
+
+
+```java
+int pRoot = find(p);
+int qRoot = find(q);
+
+if (pRoot == qRoot) {
+    return;
+}
+
+parent[pRoot] = qRoot;
+```
+
+#### 路径压缩
+
+![UF](img/UF7.png)
+
+![UF](img/UF7.png)
+
+![UF](img/UF8.png)
+
+
+
+## AVL树
+
+- 最早的自平衡二分搜素树结构
+- 平衡二叉树
+  - 对于任意一个节点，左右子树高度差不超过1
+- 高度和节点数量之间的关系也是O(logn)
+- 标注节点的高度，计算平衡因子（左右节点高度差）
+
+### 平衡维护
+
+- 添加节点的时候维护
+
+![AVLTree](img/AVLTree.png)
+
+![AVLTree](img/AVLTree2.png)
+
+#### 右旋转(RR)
+
+![AVLTree](img/AVLTree3.png)
+
+![AVLTree](img/AVLTree4.png)
+
+![AVLTree](img/AVLTree5.png)
+
+![AVLTree](img/AVLTree6.png)
+
+#### 左旋转(LL)
+
+![AVLTree](img/AVLTree7.png)
+
+![AVLTree](img/AVLTree8.png)
+
+![AVLTree](img/AVLTree9.png)
+
+![AVLTree](img/AVLTree10.png)
+
+#### 左旋转 + 右旋转 (LR)
+
+![AVLTree](img/AVLTree11.png)
+
+- 转化成了LL的情况
+
+![AVLTree](img/AVLTree12.png)
+
+
+#### 右旋转 + 左旋转 (RL)
+
+![AVLTree](img/AVLTree13.png)
+
+- 转化成了RR的情况
+
+![AVLTree](img/AVLTree14.png)
+
+### 删除元素
+
+- 删除之后，跟添加元素一样，判断一下平衡因子
+
+## 红黑树
+
+- 每个节点或者是红色，或者是黑色的
+- 根节点是黑色的
+- 每一个叶子节点是黑色的
+- 如果一个节点是红色的，那么他的孩子节点都是黑色的
+- 从任意一个节点到叶子节点，经过的黑色节点是一样的
+
+### 2-3树
+
+- 满足二分搜素树的基本性质
+
+- 节点可以存放一个元素或两个元素
+![2-3树](img/2-3树.png)
+
+- 2-3树是一棵绝对平衡的树
+![2-3树](img/2-3树2.png)
+
+![2-3树](img/2-3树3.png)
+
+![2-3树](img/2-3树4.png)
+
+![2-3树](img/2-3树5.png)
+![2-3树](img/2-3树6.png)
+
+![2-3树](img/2-3树7.png)
+
+![2-3树](img/2-3树8.png)
+
+![2-3树](img/2-3树9.png)
+![2-3树](img/2-3树10.png)
+![2-3树](img/2-3树11.png)
+
+- 2-3树与红黑树
+![2-3树](img/2-3树12.png)
+
+### 红黑树添加元素
+- 左旋转
+    ![RBTree](img/RBTree.png)
+
+    ![RBTree](img/RBTree2.png)
+
+    ![RBTree](img/RBTree3.png)
+
+    ![RBTree](img/RBTree4.png)
+    ![RBTree](img/RBTree5.png)
+```java
+node.right = x.left;
+x.left = node;
+x.color = node.color;
+node.color = RED;
+```
+
+- 颜色翻转
+ 	![RBTree](img/RBTree6.png)
+
+    ![RBTree](img/RBTree7.png)
+    
+    ![RBTree](img/RBTree8.png)
+
+- 右旋转
+
+   ![RBTree](img/RBTree9.png)
+   
+   ![RBTree](img/RBTree10.png)
+   
+   ![RBTree](img/RBTree11.png)
+   
+   ![RBTree](img/RBTree12.png)
+
+```java
+node.left =T1;
+x.right = node;
+x.color = node.color;
+node.color = RED;
+```
+
+### 添加元素
+ ![RBTree](img/RBTree13.png)
+
+### 性能总结
+
+- 对于完全随机的数据，普通二分搜素树很好用！
+- 缺点：极端情况下退化成链表或高度不平衡
+- 对于查询较多的使用情况，AVL树很好用！
+- 红黑树牺牲了平衡性(2logn的高度)
+- 统计性能更优（综合增删改查所有的操作）
+
+## 哈希表
+
+- 哈希表充分体现了算法设计领域的经典思想：空间换时间
+- 哈希表是时间和空间之间的平衡
+- 哈希函数的设计是很重要的
+- “键”通过哈希函数得到的“索引”分布越均匀越好
+
+### 哈希函数的设计（常用方法）
+
+#### 原则
+
+- 一致性：如果a==b 则hash(a) == hash(b)
+- 高效性：计算高效简便
+- 均匀性：哈希值均匀分布
+
+#### 方法
+
+- “键”通过哈希函数得到的“索引”分布越均匀越好
+
+- 整型
+
+  - 小范围正整数直接使用
+  - 小范围负整数进行偏移
+  - 大整数
+    - 通过做法：取模
+    - 简单的解决方法：模一个素数
+
+- 浮点型：在计算机中都是32位或64位的二进制表示，只不过计算机解析成了浮点数，可以转换成整型处理
+
+- 字符串：转成整型
+
+- 复合类型：转成整型
+
+### 哈希冲突的处理（链地址法）
+
+
+
+
+
+
+
+
