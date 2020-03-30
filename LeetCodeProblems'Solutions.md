@@ -14,6 +14,7 @@
 | 211    | [添加与搜索单词 - 数据结构设计](https://leetcode-cn.com/problems/add-and-search-word-data-structure-design/submissions/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Add_and_Search_Word_Data_tructure_design.java)| 中等|
 | 208    | [实现 Trie (前缀树)](https://leetcode-cn.com/problems/implement-trie-prefix-tree/submissions/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Implement_Trie_(Prefix_Tree).java)| 中等|
 | 203    | [移除链表元素](https://leetcode-cn.com/problems/remove-linked-list-elements/submissions/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Remove_Linked_List_Elements(Recursive).java)（递归解法） | 简单|
+| 189    | [旋转数组](https://leetcode-cn.com/problems/rotate-array/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Rotate_Array.java)| 简单|
 | 168    | [多数元素](https://leetcode-cn.com/problems/majority-element/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/majorityElement.java) | 简单|
 | 167    | [两数之和 II - 输入有序数组](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Two_Sum_II-Input_array_is_sorted.java) | 简单|
 | 130    | [被围绕的区域](https://leetcode-cn.com/problems/surrounded-regions/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Surrounded_Regions.java) | 中等|
