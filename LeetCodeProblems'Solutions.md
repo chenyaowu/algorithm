@@ -11,10 +11,13 @@
 | 347    | [前K个高频元素](https://leetcode-cn.com/problems/top-k-frequent-elements/submissions/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Top_K_Frequent_Elements.java)| 中等|
 | 307    | [区域和检索 - 数组可修改](https://leetcode-cn.com/problems/range-sum-query-mutable/submissions/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Range_Sum_Query_Mutable.java)| 简单|
 | 303    | [区域和检索 - 数组不可变](https://leetcode-cn.com/problems/range-sum-query-immutable/submissions/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Range_Sum_Query_Immutable.java)| 简单|
+| 217    | [存在重复元素](https://leetcode-cn.com/problems/contains-duplicate/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Contains_Duplicate.java)| 简单|
 | 211    | [添加与搜索单词 - 数据结构设计](https://leetcode-cn.com/problems/add-and-search-word-data-structure-design/submissions/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Add_and_Search_Word_Data_tructure_design.java)| 中等|
 | 208    | [实现 Trie (前缀树)](https://leetcode-cn.com/problems/implement-trie-prefix-tree/submissions/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Implement_Trie_(Prefix_Tree).java)| 中等|
 | 203    | [移除链表元素](https://leetcode-cn.com/problems/remove-linked-list-elements/submissions/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Remove_Linked_List_Elements(Recursive).java)（递归解法） | 简单|
-| 203    | [移除链表元素](https://leetcode-cn.com/problems/remove-linked-list-elements/submissions/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Remove_Linked_List_Elements.java) | 简单|
+| 189    | [旋转数组](https://leetcode-cn.com/problems/rotate-array/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Rotate_Array.java)| 简单|
+| 168    | [多数元素](https://leetcode-cn.com/problems/majority-element/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/majorityElement.java) | 简单|
+| 167    | [两数之和 II - 输入有序数组](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Two_Sum_II-Input_array_is_sorted.java) | 简单|
 | 130    | [被围绕的区域](https://leetcode-cn.com/problems/surrounded-regions/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Surrounded_Regions.java) | 中等|
 | 122    | [买卖股票的最佳时机 II](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Best_Time_to_Buy_and_Sell_Stock_ii.java) | 简单|
 | 121    | [买卖股票的最佳时机](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Best_Time_to_Buy_and_Sell_Stock.java) | 简单|
