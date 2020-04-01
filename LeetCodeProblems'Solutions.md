@@ -11,6 +11,7 @@
 | 347    | [前K个高频元素](https://leetcode-cn.com/problems/top-k-frequent-elements/submissions/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Top_K_Frequent_Elements.java)| 中等|
 | 307    | [区域和检索 - 数组可修改](https://leetcode-cn.com/problems/range-sum-query-mutable/submissions/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Range_Sum_Query_Mutable.java)| 简单|
 | 303    | [区域和检索 - 数组不可变](https://leetcode-cn.com/problems/range-sum-query-immutable/submissions/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Range_Sum_Query_Immutable.java)| 简单|
+| 219    | [存在重复元素 II](https://leetcode-cn.com/problems/contains-duplicate-ii/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Contains_Duplicate_II.java)| 简单|
 | 217    | [存在重复元素](https://leetcode-cn.com/problems/contains-duplicate/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Contains_Duplicate.java)| 简单|
 | 211    | [添加与搜索单词 - 数据结构设计](https://leetcode-cn.com/problems/add-and-search-word-data-structure-design/submissions/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Add_and_Search_Word_Data_tructure_design.java)| 中等|
 | 208    | [实现 Trie (前缀树)](https://leetcode-cn.com/problems/implement-trie-prefix-tree/submissions/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Implement_Trie_(Prefix_Tree).java)| 中等|
