@@ -32,6 +32,7 @@
 | 88    | [合并两个有序数组](https://leetcode-cn.com/problems/merge-sorted-array/submissions/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Merge_Sorted_Array.java) | 简单|
 | 83    | [ 删除排序链表中的重复元素](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Remove_Duplicates_From_Sorted_List.java) | 简单|
 | 66 | [加一](https://leetcode-cn.com/problems/plus-one/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Plus_One.java) | 简单|
+| 53 | [最大子序和](https://leetcode-cn.com/problems/maximum-subarray/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Maximum_Subarray.java) | 简单 |
 | 39    | [组合总和](https://leetcode-cn.com/problems/combination-sum/submissions/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Combination_Sum.java) | 中等|
 | 38 | [外观数列](https://leetcode-cn.com/problems/count-and-say/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/CountAndSay.java) | 简单 |
 | 35    | [搜索插入位置](https://leetcode-cn.com/problems/search-insert-position/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Search_Insert_Position.java) | 简单|
