@@ -6,6 +6,7 @@
 | 1480 | [ 一维数组的动态和](https://leetcode-cn.com/problems/running-sum-of-1d-array/) |[Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Running_Sum_of_1d_Array.java)| 简单|
 | 832    | 难度简单29[翻转图像](https://leetcode-cn.com/problems/flipping-an-image/submissions/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Flipping_an_Image.java)| 简单|
 | 804    | [唯一摩尔斯密码词](https://leetcode-cn.com/problems/unique-morse-code-words/submissions/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Unique_MorseCode_Words.java)| 简单|
+| 771 | [宝石与石头](https://leetcode-cn.com/problems/jewels-and-stones/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Jewels_and_Stones.java)| 简单|
 | 701 | [二叉搜索树中的插入操作](https://leetcode-cn.com/problems/insert-into-a-binary-search-tree/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Insert_into_a_Binary_Search_Tree.java)| 简单|
 | 677    | [键值映射](https://leetcode-cn.com/problems/map-sum-pairs/submissions/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Map_Sum_Pairs.java)| 中等|
 | 617 | [合并二叉树](https://leetcode-cn.com/problems/merge-two-binary-trees/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Merge_Two_Binary_Trees.java) | 简单 |
