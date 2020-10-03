@@ -49,6 +49,7 @@
 | 28    | [实现strStr()](https://leetcode-cn.com/problems/implement-strstr/submissions/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Implement_strStr().java) | 简单|
 | 27    | [移除元素](https://leetcode-cn.com/problems/remove-element/submissions/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Remove_Element.java) | 简单|
 | 26    | [删除排序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/submissions/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Remove_Duplicates_from_Sorted_Array.java) | 中等|
+| 25 | [K 个一组翻转链表](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Reverse_Nodes_in_k-Group.java) | 困难|
 | 24    | [两两交换链表中的节点](https://leetcode-cn.com/problems/swap-nodes-in-pairs/submissions/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Swap_Nodes_in_Pairs.java) | 中等|
 | 23    | [合并K个排序链表](https://leetcode-cn.com/problems/merge-k-sorted-lists/submissions/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Merge_k_Sorted_Lists.java) | 困难|
 | 22    | [括号生成](https://leetcode-cn.com/problems/generate-parentheses/submissions/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Generate_Parentheses.java) | 中等|
