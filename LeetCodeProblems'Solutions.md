@@ -15,6 +15,7 @@
 | 350    | [两个数组的交集 II](https://leetcode-cn.com/problems/intersection-of-two-arrays-ii/submissions/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Intersection_of_Two_Arrays_II.java)| 简单|
 | 349    | [两个数组的交集](https://leetcode-cn.com/problems/intersection-of-two-arrays/submissions/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Intersection_of_Two_Arrays.java)| 简单|
 | 347    | [前K个高频元素](https://leetcode-cn.com/problems/top-k-frequent-elements/submissions/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Top_K_Frequent_Elements.java)| 中等|
+| 344 | [反转字符串](https://leetcode-cn.com/problems/reverse-string/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Reverse_String.java)| 简单|
 | 307    | [区域和检索 - 数组可修改](https://leetcode-cn.com/problems/range-sum-query-mutable/submissions/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Range_Sum_Query_Mutable.java)| 简单|
 | 303    | [区域和检索 - 数组不可变](https://leetcode-cn.com/problems/range-sum-query-immutable/submissions/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Range_Sum_Query_Immutable.java)| 简单|
 | 283    | [移动零](https://leetcode-cn.com/problems/move-zeroes/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Move_Zeroes.java)| 简单|
@@ -29,6 +30,7 @@
 | 168    | [多数元素](https://leetcode-cn.com/problems/majority-element/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/majorityElement.java) | 简单|
 | 167    | [两数之和 II - 输入有序数组](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Two_Sum_II-Input_array_is_sorted.java) | 简单|
 | 145 | [二叉树的后序遍历](https://leetcode-cn.com/problems/binary-tree-postorder-traversal/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Binary_Tree_Postorder_Traversal.java) | 简单|
+| 141 | [环形链表](https://leetcode-cn.com/problems/linked-list-cycle/) |  [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Linked_List _cycle.java) | 简单|
 | 130    | [被围绕的区域](https://leetcode-cn.com/problems/surrounded-regions/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Surrounded_Regions.java) | 中等|
 | 122    | [买卖股票的最佳时机 II](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Best_Time_to_Buy_and_Sell_Stock_ii.java) | 简单|
 | 121    | [买卖股票的最佳时机](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Best_Time_to_Buy_and_Sell_Stock.java) | 简单|
