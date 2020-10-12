@@ -11,6 +11,7 @@
 | 677    | [键值映射](https://leetcode-cn.com/problems/map-sum-pairs/submissions/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Map_Sum_Pairs.java)| 中等|
 | 617 | [合并二叉树](https://leetcode-cn.com/problems/merge-two-binary-trees/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Merge_Two_Binary_Trees.java) | 简单 |
 | 538 |  [把二叉搜索树转换为累加树](https://leetcode-cn.com/problems/convert-bst-to-greater-tree/)| [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Convert_BST_to_Greater_Tree.java) | 简单 |
+| 530 | [二叉搜索树的最小绝对差](https://leetcode-cn.com/problems/minimum-absolute-difference-in-bst/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Minimum_Absolute_Difference_in_BST.java) | 简单 |
 | 501 | [二叉搜索树中的众数](https://leetcode-cn.com/problems/find-mode-in-binary-search-tree/) |[Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Find_Mode_in_Binary_Search_Tree.java)| 简单|
 | 350    | [两个数组的交集 II](https://leetcode-cn.com/problems/intersection-of-two-arrays-ii/submissions/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Intersection_of_Two_Arrays_II.java)| 简单|
 | 349    | [两个数组的交集](https://leetcode-cn.com/problems/intersection-of-two-arrays/submissions/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Intersection_of_Two_Arrays.java)| 简单|
