@@ -4,6 +4,7 @@
 | #    | 题名                                                         | 答案                                                         | 难度 |
 | ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---- |
 | 1480 | [ 一维数组的动态和](https://leetcode-cn.com/problems/running-sum-of-1d-array/) |[Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Running_Sum_of_1d_Array.java)| 简单|
+| 1002 | [查找常用字符](https://leetcode-cn.com/problems/find-common-characters/) |[Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Find_Common_Characters.java)| 简单|
 | 832    | 难度简单29[翻转图像](https://leetcode-cn.com/problems/flipping-an-image/submissions/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Flipping_an_Image.java)| 简单|
 | 804    | [唯一摩尔斯密码词](https://leetcode-cn.com/problems/unique-morse-code-words/submissions/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Unique_MorseCode_Words.java)| 简单|
 | 771 | [宝石与石头](https://leetcode-cn.com/problems/jewels-and-stones/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Jewels_and_Stones.java)| 简单|
