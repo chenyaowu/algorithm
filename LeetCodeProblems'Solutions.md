@@ -39,6 +39,7 @@
 | 121    | [买卖股票的最佳时机](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Best_Time_to_Buy_and_Sell_Stock.java) | 简单|
 | 119    | [杨辉三角 II](https://leetcode-cn.com/problems/pascals-triangle-ii/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Pascals_Triangle_II.java) | 简单|
 | 118    | [杨辉三角](https://leetcode-cn.com/problems/pascals-triangle/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Pascals_Triangle.java) | 简单|
+| 116 | [填充每个节点的下一个右侧节点指针](https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node/) |   [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Populating_Next_Right_Pointers_in_Each_Node.java) | 中等|
 | 88    | [合并两个有序数组](https://leetcode-cn.com/problems/merge-sorted-array/submissions/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Merge_Sorted_Array.java) | 简单|
 | 83    | [ 删除排序链表中的重复元素](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Remove_Duplicates_From_Sorted_List.java) | 简单|
 | 75 | [颜色分类](https://leetcode-cn.com/problems/sort-colors/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Sort_Colors.java)  | 中等 |
