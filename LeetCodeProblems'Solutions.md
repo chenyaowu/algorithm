@@ -35,6 +35,7 @@
 | 168    | [多数元素](https://leetcode-cn.com/problems/majority-element/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/majorityElement.java) | 简单|
 | 167    | [两数之和 II - 输入有序数组](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Two_Sum_II-Input_array_is_sorted.java) | 简单|
 | 145 | [二叉树的后序遍历](https://leetcode-cn.com/problems/binary-tree-postorder-traversal/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Binary_Tree_Postorder_Traversal.java) | 简单|
+| 144 | [二叉树的前序遍历](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/) |  [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/binary-tree-preorder-traversal.java) | 中等|
 | 143 | [重排链表](https://leetcode-cn.com/problems/reorder-list/) |  [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Reorder_List.java) | 中等|
 | 142 | [环形链表 II](https://leetcode-cn.com/problems/linked-list-cycle-ii/) |  [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Linked_List_cycle_II.java) | 简单|
 | 141 | [环形链表](https://leetcode-cn.com/problems/linked-list-cycle/) |  [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Linked_List _cycle.java) | 简单|
