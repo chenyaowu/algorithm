@@ -41,6 +41,7 @@
 | 142 | [环形链表 II](https://leetcode-cn.com/problems/linked-list-cycle-ii/) |  [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Linked_List_cycle_II.java) | 简单|
 | 141 | [环形链表](https://leetcode-cn.com/problems/linked-list-cycle/) |  [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Linked_List _cycle.java) | 简单|
 | 130    | [被围绕的区域](https://leetcode-cn.com/problems/surrounded-regions/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Surrounded_Regions.java) | 中等|
+| 129 | [求根到叶子节点数字之和](https://leetcode-cn.com/problems/sum-root-to-leaf-numbers/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/sum-root-to-leaf-numbers.java) | 中等|
 | 122    | [买卖股票的最佳时机 II](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Best_Time_to_Buy_and_Sell_Stock_ii.java) | 简单|
 | 121    | [买卖股票的最佳时机](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Best_Time_to_Buy_and_Sell_Stock.java) | 简单|
 | 119    | [杨辉三角 II](https://leetcode-cn.com/problems/pascals-triangle-ii/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Pascals_Triangle_II.java) | 简单|
