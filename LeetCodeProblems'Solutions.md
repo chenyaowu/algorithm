@@ -7,7 +7,8 @@
 | 1207 | [独一无二的出现次数](https://leetcode-cn.com/problems/unique-number-of-occurrences/) |[Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/unique-number-of-occurrences.java)| 简单|
 | 1002 | [查找常用字符](https://leetcode-cn.com/problems/find-common-characters/) |[Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Find_Common_Characters.java)| 简单|
 | 977 | [有序数组的平方](https://leetcode-cn.com/problems/squares-of-a-sorted-array/) |[Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Squares_of_a_Sorted_Array.java)| 简单|
-| 925 | [长按键入](https://leetcode-cn.com/problems/long-pressed-name/) |[Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Long_Pressed_Name.java)| 简单|
+| 941 | [有效的山脉数组](https://leetcode-cn.com/problems/valid-mountain-array/) |[Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/valid-mountain-array.java)| 简单|
+| 925 | 难度简单106[长按键入](https://leetcode-cn.com/problems/long-pressed-name/) |[Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Long_Pressed_Name.java)| 简单|
 | 832    | 难度简单29[翻转图像](https://leetcode-cn.com/problems/flipping-an-image/submissions/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Flipping_an_Image.java)| 简单|
 | 804    | [唯一摩尔斯密码词](https://leetcode-cn.com/problems/unique-morse-code-words/submissions/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Unique_MorseCode_Words.java)| 简单|
 | 771 | [宝石与石头](https://leetcode-cn.com/problems/jewels-and-stones/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Jewels_and_Stones.java)| 简单|
