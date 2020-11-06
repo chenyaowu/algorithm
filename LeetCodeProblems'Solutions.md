@@ -4,6 +4,7 @@
 | #    | 题名                                                         | 答案                                                         | 难度 |
 | ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ---- |
 | 1480 | [ 一维数组的动态和](https://leetcode-cn.com/problems/running-sum-of-1d-array/) |[Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Running_Sum_of_1d_Array.java)| 简单|
+| 1356 | [根据数字二进制下 1 的数目排序](https://leetcode-cn.com/problems/sort-integers-by-the-number-of-1-bits/) ||[Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/sort-integers-by-the-number-of-1-bits.java)| 简单|
 | 1207 | [独一无二的出现次数](https://leetcode-cn.com/problems/unique-number-of-occurrences/) |[Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/unique-number-of-occurrences.java)| 简单|
 | 1002 | [查找常用字符](https://leetcode-cn.com/problems/find-common-characters/) |[Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Find_Common_Characters.java)| 简单|
 | 977 | [有序数组的平方](https://leetcode-cn.com/problems/squares-of-a-sorted-array/) |[Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Squares_of_a_Sorted_Array.java)| 简单|
