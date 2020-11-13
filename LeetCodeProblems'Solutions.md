@@ -26,6 +26,7 @@
 | 349    | [两个数组的交集](https://leetcode-cn.com/problems/intersection-of-two-arrays/submissions/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Intersection_of_Two_Arrays.java)| 简单|
 | 347    | [前K个高频元素](https://leetcode-cn.com/problems/top-k-frequent-elements/submissions/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Top_K_Frequent_Elements.java)| 中等|
 | 344 | [反转字符串](https://leetcode-cn.com/problems/reverse-string/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Reverse_String.java)| 简单|
+| 328 | [奇偶链表](https://leetcode-cn.com/problems/odd-even-linked-list/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/odd-even-linked-list.java)| 中等|
 | 307    | [区域和检索 - 数组可修改](https://leetcode-cn.com/problems/range-sum-query-mutable/submissions/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Range_Sum_Query_Mutable.java)| 简单|
 | 303    | [区域和检索 - 数组不可变](https://leetcode-cn.com/problems/range-sum-query-immutable/submissions/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Range_Sum_Query_Immutable.java)| 简单|
 | 283    | [移动零](https://leetcode-cn.com/problems/move-zeroes/) | [Java](https://github.com/chenyaowu/algorithm/blob/master/Leecode/java/Move_Zeroes.java)| 简单|
